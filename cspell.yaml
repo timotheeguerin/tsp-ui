@@ -1,0 +1,89 @@
+version: "0.2"
+language: en
+allowCompoundWords: true
+dictionaries:
+  - node
+  - typescript
+words:
+  - autorest
+  - azsdkengsys
+  - azurecr
+  - azuresdkcadlranch
+  - blockful
+  - blockless
+  - cadl
+  - cadlranchcoverage
+  - Contoso
+  - CRUDL
+  - devdriven
+  - dogfood
+  - eastus
+  - esbuild
+  - fluentui
+  - globby
+  - Hdvcmxk
+  - inmemory
+  - instanceid
+  - intrinsics
+  - ints
+  - jsyaml
+  - msbuild
+  - MSRC
+  - munge
+  - mylib
+  - nostdlib
+  - oapi
+  - oneof
+  - onig
+  - onigasm
+  - onwarn
+  - openapi
+  - openapiv
+  - pacote
+  - picocolors
+  - pnpm
+  - positionals
+  - proto
+  - protobuf
+  - protoc
+  - regen
+  - rpaas
+  - rushx
+  - safeint
+  - strs
+  - TSES
+  - typespec
+  - Uhoh
+  - unassignable
+  - Uncapitalize
+  - uninstantiated
+  - unioned
+  - unprojected
+  - unsourced
+  - unversioned
+  - vsix
+  - vswhere
+  - westus
+  - xplat
+  - tcgc
+  - elif
+
+  # github aliases that show in changlog
+  - tadelesh
+  - timotheeguerin
+  - iscai
+  - qiaozha
+  - weidongxu
+  - lmazuel
+  - pshao
+  - chunyu
+  - haolingdong
+  - archerzz
+  - tjprescott
+  - msyyc
+ignorePaths:
+  - "**/node_modules/**"
+  - "**/dist/**"
+  - "**/dist-dev/**"
+enableFiletypes:
+  - cadl
